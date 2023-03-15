@@ -46,6 +46,6 @@ The repo needs some standing up. The following steps are required to get it runn
 ## Progress 🚧
 ### Roadmap 🗺️
 - [x] Implement training loop for UNet2DConditional with ColossalAI backend.
-- [] Implement checkpoint saving; see [this issue](https://github.com/hpretila/binky-stable-diffusion/issues/1), where compatibility with the Diffusers library seems to be an issue. There is some ad-hoc changes made to the Diffusers library for it to work, but it breaks for other cases.
-- [] Documentation on use and architecture.
-- [] A fully trained model? 😂
+- [ ] Implement checkpoint saving; see [this issue](https://github.com/hpretila/binky-stable-diffusion/issues/1), where compatibility with the Diffusers library seems to be an issue. There is some ad-hoc changes made to the Diffusers library for it to work, but it breaks for other cases.
+- [ ] Documentation on use and architecture.
+- [ ] A fully trained model? 😂
