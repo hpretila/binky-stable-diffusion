@@ -8,5 +8,5 @@
     "train_vae": "false",
     "train_unet": "true",
     "train_text_encoder": "false",
-    "use_xformers": "false"
+    "use_xformers": "true"
 }

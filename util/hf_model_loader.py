@@ -100,9 +100,6 @@ class HFDiffuserModelLoader:
     
     def save_without_pipeline(config: DiffusionConfig, unet: UNet2DConditionModel) -> None:
         print("Saving model without pipeline")
-        if os.path.exists(config.pretrained_model_name_or_path + "/unet"):
-            os.rmdir(config.pretrained_model_name_or_path + "/unet")
-
         # ColossalAI save_checkpoint
         unet.save_pretrained(config.pretrained_model_name_or_path + "/unet")
         # save_checkpoint(config.pretrained_model_name_or_path + "/unet/diffusion_pytorch_model.bin", 1, unet)

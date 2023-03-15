@@ -17,7 +17,7 @@ from util.hf_model_callback import HfModelCheckpoint
 
 if __name__ == "__main__":
     # Training config
-    BATCH_SIZE = 2
+    BATCH_SIZE = 4
     DATA_DIR = os.environ["DATA_DIR"]
     IMG_DIM = 512
 
